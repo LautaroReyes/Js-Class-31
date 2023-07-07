@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clase Persona</h1>
+    <form id="formulario">
+        <label for="name">Nombre: </label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="birthday">Fecha de Nacimiento: </label>
+        <input type="date" id="birthday" required><br><br>
+
+        <label for="dni">DNI: </label>
+        <input type="number" id="dni" required><br><br>
+
+        <label for="gender">Genero: </label>
+        <input type="text" id="gender" required><br><br>
+
+        <label for="weight">Peso: </label>
+        <input type="number" id="weight" required><br><br>
+
+        <label for="height">Altura: </label>
+        <input type="text" id="height" required><br><br>
+
+        <button type="submit">Mostrar resultado</button>
+    </form>
+    <br><br>
+    <table id="datosPersona">
+        <tr>
+            <th>Nombre</th>
+            <th>Fecha de nacimiento</th>
+            <th>DNI</th>
+            <th>Genero</th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>IMC</th>
+            <th>Mayor</th>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
